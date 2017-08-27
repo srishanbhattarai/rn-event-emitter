@@ -1,0 +1,27 @@
+{
+  "name": "rn-event-emitter",
+  "version": "1.0.0",
+  "description": "A small event emitter for JavaScript and React Native",
+  "main": "eventemitter.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/srishanbhattarai/rn-event-emitter.git"
+  },
+  "keywords": [
+    "react-native",
+    "event-emitter",
+    "javascript"
+  ],
+  "author": "Srishan Bhattarai <srishanbhattarai@gmail.com> (https://github.com/srishanbhattarai/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/srishanbhattarai/rn-event-emitter/issues"
+  },
+  "homepage": "https://github.com/srishanbhattarai/rn-event-emitter#readme",
+  "devDependencies": {
+    "jest": "^20.0.4"
+  }
+}
