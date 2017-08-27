@@ -4,7 +4,20 @@
 
 An ES6 based, lightweight event emitter created for, but not limited to, React Native.
 
-The `Event` object is a helper class with `static` methods for emitting and subscribing to events.
+## Installation
+```
+npm i --save rn-event-emitter
+```
+Or, if you prefer yarn:
+```
+yarn add rn-event-emitter
+```
+
+## Usage
+The `Event` object is a utility class with `static` methods for emitting and subscribing to events.
+```
+import Event from 'rn-event-emitter';
+```
 
 ## API
 
@@ -17,7 +30,7 @@ Event.emit('data', { additional: 'data' }); // emissions with data
 
 ### Event.subscribe
 ```
-const unsubscribe = Event.subscribe('data', 'home-page-listener', (eventData) => {
+const unsubscribe = Event.subscribe('data', (eventData) => {
   console.log('Got data event!', eventData);
 });
 ```
