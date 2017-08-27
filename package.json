@@ -2,7 +2,7 @@
   "name": "rn-event-emitter",
   "version": "1.0.0",
   "description": "A small event emitter for JavaScript and React Native",
-  "main": "lib/eventemitter.js",
+  "main": "index.js",
   "scripts": {
     "test": "NODE_ENV=test jest",
     "test:watch:cov": "jest -u --watch --coverage"

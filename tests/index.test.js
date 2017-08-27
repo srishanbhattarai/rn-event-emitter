@@ -1,4 +1,4 @@
-import Event from '../lib/eventemitter';
+import Event from '../index';
 
 describe('functional tests', () => {
 
