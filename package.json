@@ -4,7 +4,8 @@
   "description": "A small event emitter for JavaScript and React Native",
   "main": "lib/eventemitter.js",
   "scripts": {
-    "test": "NODE_ENV=test jest"
+    "test": "NODE_ENV=test jest",
+    "test:watch:cov": "jest -u --watch --coverage"
   },
   "repository": {
     "type": "git",
@@ -24,5 +25,9 @@
   "devDependencies": {
     "babel-preset-es2015": "6.24.1",
     "jest": "20.0.4"
+  },
+  "jest": {
+    "verbose": true,
+    "collectCoverageFrom" : ["lib/**/*.js"]
   }
 }
