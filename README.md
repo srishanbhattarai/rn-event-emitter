@@ -1,4 +1,4 @@
-# React Native Event Emitter
+# React Native Event Emitter [![Build Status](https://travis-ci.org/srishanbhattarai/rn-event-emitter.svg?branch=master)](https://travis-ci.org/srishanbhattarai/rn-event-emitter)
 
 An ES6 based, lightweight event emitter created for, but not limited to, React Native.
 
