@@ -1,5 +1,7 @@
 # React Native Event Emitter [![Build Status](https://travis-ci.org/srishanbhattarai/rn-event-emitter.svg?branch=master)](https://travis-ci.org/srishanbhattarai/rn-event-emitter)
 
+> This is in no way coupled to React Native, but it is what I end up using this most for.
+
 An ES6 based, lightweight event emitter created for, but not limited to, React Native.
 
 The `Event` object is a helper class with `static` methods for emitting and subscribing to events.
