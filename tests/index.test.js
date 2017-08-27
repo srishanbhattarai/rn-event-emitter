@@ -59,4 +59,16 @@ describe('functional tests', () => {
     expect(counter).toEqual(0); // no change in counter value.
   });
 
+  it('should throw an error if event name is absent during subscription', () => {
+    expect(() => Event.subscribe()).toThrow();
+  });
+
+  it('should throw an error if callback is absent during subscription', () => {
+    expect(() => Event.subscribe('data')).toThrow();
+  });
+
+  it('should throw an error if event name is absent during emission', () => {
+    expect(() => Event.emit()).toThrow();
+  });
+
 });
