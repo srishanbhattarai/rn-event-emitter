@@ -4,7 +4,7 @@
   "description": "A small event emitter for JavaScript and React Native",
   "main": "index.js",
   "scripts": {
-    "test": "NODE_ENV=test jest",
+    "test": "jest --coverage && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js",
     "test:watch:cov": "jest -u --watch --coverage"
   },
   "repository": {
@@ -24,10 +24,13 @@
   "homepage": "https://github.com/srishanbhattarai/rn-event-emitter#readme",
   "devDependencies": {
     "babel-preset-es2015": "6.24.1",
+    "coveralls": "^2.13.1",
     "jest": "20.0.4"
   },
   "jest": {
     "verbose": true,
-    "collectCoverageFrom" : ["lib/**/*.js"]
+    "collectCoverageFrom": [
+      "lib/**/*.js"
+    ]
   }
 }

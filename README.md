@@ -1,4 +1,6 @@
-# React Native Event Emitter [![Build Status](https://travis-ci.org/srishanbhattarai/rn-event-emitter.svg?branch=master)](https://travis-ci.org/srishanbhattarai/rn-event-emitter)
+# React Native Event Emitter 
+[![Build Status](https://travis-ci.org/srishanbhattarai/rn-event-emitter.svg?branch=master)](https://travis-ci.org/srishanbhattarai/rn-event-emitter)
+[![Coverage Status](https://coveralls.io/repos/github/srishanbhattarai/rn-event-emitter/badge.svg?branch=master)](https://coveralls.io/github/srishanbhattarai/rn-event-emitter?branch=master)
 
 > This is in no way coupled to React Native, but it is what I end up using this most for.
 
